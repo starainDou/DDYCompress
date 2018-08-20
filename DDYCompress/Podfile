@@ -1,0 +1,14 @@
+
+platform :ios, '9.0'
+
+target 'DDYCompress' do
+
+  use_frameworks!
+
+  pod 'UnrarKit', '~> 2.8.1'
+  pod 'SSZipArchive', '~> 2.0.3'
+  pod 'LzmaSDK-ObjC', :inhibit_warnings => true
+  
+
+
+end

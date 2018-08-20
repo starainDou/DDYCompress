@@ -1,0 +1,26 @@
+PODS:
+  - LzmaSDK-ObjC (2.0.14)
+  - SSZipArchive (2.0.3)
+  - UnrarKit (2.8.1):
+    - UnrarKit/unrar-lib (= 2.8.1)
+  - UnrarKit/unrar-lib (2.8.1)
+
+DEPENDENCIES:
+  - LzmaSDK-ObjC
+  - SSZipArchive (~> 2.0.3)
+  - UnrarKit (~> 2.8.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - LzmaSDK-ObjC
+    - SSZipArchive
+    - UnrarKit
+
+SPEC CHECKSUMS:
+  LzmaSDK-ObjC: 1bbe52a29dab63eada8fc9ef6332635f2948a476
+  SSZipArchive: b6648b70a36303ca5be9f0351174b347e1886236
+  UnrarKit: 167602bda6542e575c4cdc068509d6b787f84468
+
+PODFILE CHECKSUM: 421aa43fee8db9844ef5b2c5a0ec2f293686dd61
+
+COCOAPODS: 1.6.0.beta.1

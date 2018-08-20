@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		785961543DC532DCDDB1382E /* Pods_DDYCompress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7B12C3E1011816B3D34BB7 /* Pods_DDYCompress.framework */; };
+		A4DE08E5212A55A20073CEA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DE08DB212A55A20073CEA1 /* AppDelegate.m */; };
+		A4DE08E6212A55A20073CEA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4DE08DC212A55A20073CEA1 /* LaunchScreen.storyboard */; };
+		A4DE08E8212A55A20073CEA1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4DE08E0212A55A20073CEA1 /* Info.plist */; };
+		A4DE08E9212A55A20073CEA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DE08E1212A55A20073CEA1 /* main.m */; };
+		A4DE08EB212A55A20073CEA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DE08E4212A55A20073CEA1 /* ViewController.m */; };
+		A4DE0CA6212A66EF0073CEA1 /* DDYCompress.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DE0CA5212A66EF0073CEA1 /* DDYCompress.m */; };
+		A4DE0CAD212ACC7E0073CEA1 /* zip.zip in Resources */ = {isa = PBXBuildFile; fileRef = A4DE0CAC212ACC7E0073CEA1 /* zip.zip */; };
+		A4DE0CB0212AD6340073CEA1 /* 7z.7z in Resources */ = {isa = PBXBuildFile; fileRef = A4DE0CAE212AD6330073CEA1 /* 7z.7z */; };
+		A4DE0CB1212AD6340073CEA1 /* rar.rar in Resources */ = {isa = PBXBuildFile; fileRef = A4DE0CAF212AD6340073CEA1 /* rar.rar */; };
+		A4DE0CB4212AD7BD0073CEA1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DE0CB3212AD7BC0073CEA1 /* libz.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C7B12C3E1011816B3D34BB7 /* Pods_DDYCompress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDYCompress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BFBEF34A7DFBAFEB8F982DD /* Pods-DDYCompress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDYCompress.debug.xcconfig"; path = "Target Support Files/Pods-DDYCompress/Pods-DDYCompress.debug.xcconfig"; sourceTree = "<group>"; };
+		A4DE08C3212A55350073CEA1 /* DDYCompress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDYCompress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4DE08DA212A55A20073CEA1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A4DE08DB212A55A20073CEA1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A4DE08DD212A55A20073CEA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4DE08E0212A55A20073CEA1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4DE08E1212A55A20073CEA1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4DE08E3212A55A20073CEA1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A4DE08E4212A55A20073CEA1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A4DE0CA4212A66EF0073CEA1 /* DDYCompress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDYCompress.h; sourceTree = "<group>"; };
+		A4DE0CA5212A66EF0073CEA1 /* DDYCompress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDYCompress.m; sourceTree = "<group>"; };
+		A4DE0CAC212ACC7E0073CEA1 /* zip.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = zip.zip; sourceTree = "<group>"; };
+		A4DE0CAE212AD6330073CEA1 /* 7z.7z */ = {isa = PBXFileReference; lastKnownFileType = file; path = 7z.7z; sourceTree = "<group>"; };
+		A4DE0CAF212AD6340073CEA1 /* rar.rar */ = {isa = PBXFileReference; lastKnownFileType = file; path = rar.rar; sourceTree = "<group>"; };
+		A4DE0CB3212AD7BC0073CEA1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		E7750BCFE8FE74F53BCC4D5B /* Pods-DDYCompress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDYCompress.release.xcconfig"; path = "Target Support Files/Pods-DDYCompress/Pods-DDYCompress.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4DE08C0212A55350073CEA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DE0CB4212AD7BD0073CEA1 /* libz.tbd in Frameworks */,
+				785961543DC532DCDDB1382E /* Pods_DDYCompress.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4DE08BA212A55350073CEA1 = {
+			isa = PBXGroup;
+			children = (
+				A4DE08C5212A55350073CEA1 /* DDYCompress */,
+				A4DE08C4212A55350073CEA1 /* Products */,
+				A4DE0CB2212AD7BC0073CEA1 /* Frameworks */,
+				D29D8BE6B69A46EE63D6028D /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A4DE08C4212A55350073CEA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4DE08C3212A55350073CEA1 /* DDYCompress.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4DE08C5212A55350073CEA1 /* DDYCompress */ = {
+			isa = PBXGroup;
+			children = (
+				A4DE08EC212A5A510073CEA1 /* DDYCompress */,
+				A4DE08D9212A55A20073CEA1 /* System */,
+			);
+			path = DDYCompress;
+			sourceTree = "<group>";
+		};
+		A4DE08D9212A55A20073CEA1 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				A4DE08DA212A55A20073CEA1 /* AppDelegate.h */,
+				A4DE08DB212A55A20073CEA1 /* AppDelegate.m */,
+				A4DE08DC212A55A20073CEA1 /* LaunchScreen.storyboard */,
+				A4DE08E0212A55A20073CEA1 /* Info.plist */,
+				A4DE08E1212A55A20073CEA1 /* main.m */,
+				A4DE08E3212A55A20073CEA1 /* ViewController.h */,
+				A4DE08E4212A55A20073CEA1 /* ViewController.m */,
+				A4DE0CAC212ACC7E0073CEA1 /* zip.zip */,
+				A4DE0CAE212AD6330073CEA1 /* 7z.7z */,
+				A4DE0CAF212AD6340073CEA1 /* rar.rar */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		A4DE08EC212A5A510073CEA1 /* DDYCompress */ = {
+			isa = PBXGroup;
+			children = (
+				A4DE0CA4212A66EF0073CEA1 /* DDYCompress.h */,
+				A4DE0CA5212A66EF0073CEA1 /* DDYCompress.m */,
+			);
+			path = DDYCompress;
+			sourceTree = "<group>";
+		};
+		A4DE0CB2212AD7BC0073CEA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4DE0CB3212AD7BC0073CEA1 /* libz.tbd */,
+				0C7B12C3E1011816B3D34BB7 /* Pods_DDYCompress.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D29D8BE6B69A46EE63D6028D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BFBEF34A7DFBAFEB8F982DD /* Pods-DDYCompress.debug.xcconfig */,
+				E7750BCFE8FE74F53BCC4D5B /* Pods-DDYCompress.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4DE08C2212A55350073CEA1 /* DDYCompress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4DE08D6212A55410073CEA1 /* Build configuration list for PBXNativeTarget "DDYCompress" */;
+			buildPhases = (
+				601E4E6EB100E6023D75876D /* [CP] Check Pods Manifest.lock */,
+				A4DE08BF212A55350073CEA1 /* Sources */,
+				A4DE08C0212A55350073CEA1 /* Frameworks */,
+				A4DE08C1212A55350073CEA1 /* Resources */,
+				2E60554703EA5BCB722DA151 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DDYCompress;
+			productName = DDYCompress;
+			productReference = A4DE08C3212A55350073CEA1 /* DDYCompress.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4DE08BB212A55350073CEA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = com.smartmesh;
+				TargetAttributes = {
+					A4DE08C2212A55350073CEA1 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = A4DE08BE212A55350073CEA1 /* Build configuration list for PBXProject "DDYCompress" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4DE08BA212A55350073CEA1;
+			productRefGroup = A4DE08C4212A55350073CEA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4DE08C2212A55350073CEA1 /* DDYCompress */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4DE08C1212A55350073CEA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DE0CAD212ACC7E0073CEA1 /* zip.zip in Resources */,
+				A4DE0CB0212AD6340073CEA1 /* 7z.7z in Resources */,
+				A4DE08E8212A55A20073CEA1 /* Info.plist in Resources */,
+				A4DE08E6212A55A20073CEA1 /* LaunchScreen.storyboard in Resources */,
+				A4DE0CB1212AD6340073CEA1 /* rar.rar in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E60554703EA5BCB722DA151 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DDYCompress/Pods-DDYCompress-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LzmaSDK-ObjC/LzmaSDK_ObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework",
+				"${BUILT_PRODUCTS_DIR}/UnrarKit/UnrarKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LzmaSDK_ObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSZipArchive.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UnrarKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DDYCompress/Pods-DDYCompress-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		601E4E6EB100E6023D75876D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DDYCompress-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4DE08BF212A55350073CEA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DE08E9212A55A20073CEA1 /* main.m in Sources */,
+				A4DE08EB212A55A20073CEA1 /* ViewController.m in Sources */,
+				A4DE0CA6212A66EF0073CEA1 /* DDYCompress.m in Sources */,
+				A4DE08E5212A55A20073CEA1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4DE08DC212A55A20073CEA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4DE08DD212A55A20073CEA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4DE08D4212A55410073CEA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A4DE08D5212A55410073CEA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4DE08D7212A55410073CEA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BFBEF34A7DFBAFEB8F982DD /* Pods-DDYCompress.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23JJ7VRKJT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DDYCompress/DDYCompress/7z",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/DDYCompress/System/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartmesh.smart2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4DE08D8212A55410073CEA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7750BCFE8FE74F53BCC4D5B /* Pods-DDYCompress.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23JJ7VRKJT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DDYCompress/DDYCompress/7z",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/DDYCompress/System/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartmesh.smart2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4DE08BE212A55350073CEA1 /* Build configuration list for PBXProject "DDYCompress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DE08D4212A55410073CEA1 /* Debug */,
+				A4DE08D5212A55410073CEA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4DE08D6212A55410073CEA1 /* Build configuration list for PBXNativeTarget "DDYCompress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DE08D7212A55410073CEA1 /* Debug */,
+				A4DE08D8212A55410073CEA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4DE08BB212A55350073CEA1 /* Project object */;
+}
